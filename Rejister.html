@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rejister Form</title>
+</head>
+
+<body>
+    <div class="rejisterCountianer-box">
+        <h1>Create new account</h1>
+        <form class="rejester-form">
+            <label>Email</label>
+            <input type="text" placeholder="Email" id="username" required>
+            <label>Password</label>
+            <input type="password" placeholder="Password" id="password" required>
+            <label>Business Name</label>
+            <input type="text" placeholder="Business Name">
+            <label>Country</label>
+            <!--<input type="text" placeholder="Country">-->
+            <select name="" id="">
+                <option value="Palestine">Palestine</option>
+                <option value="UAE">UAE</option>
+                <option value="America">America</option>
+                <option value="India">India</option>
+            </select>
+            <label>Currency</label>
+            <input type="text" placeholder="Currency">
+            <input type="submit" id="rgstr_btn" onclick="register()" class="submit-button" Value="Submit">
+        </form>
+        <p>Already Have an Account ? <a href="./Login.html"> Login Here </a></p>
+    </div>
+    <script src="./TS/register.js"></script>
+</body>
+
+</html>
